@@ -1,0 +1,51 @@
+/* include your css here */
+
+/*General Styles*/
+body{
+  font-family: 'Titillium Web', sans-serif;
+  padding-top: 2.5%;
+  background-image: url('../imgs/giftly.png');
+  background-repeat: repeat;
+}
+
+/*Header*/
+#head{
+  text-align:center;
+  background-color: #fff;
+  border: 2px solid #000;
+}
+
+#names{
+  text-align: center;
+  margin-left: -55px;
+  margin-top: 20px;
+}
+
+#name_list {
+  list-style-type:none;
+  /*text-align:center;*/
+}
+
+#name {
+  display:inline;
+  padding:10px;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 20px;
+   margin:10px;
+}
+
+
+/*Body*/
+#wrapper{
+  margin: 40px 10% 0 10%;
+  padding: 0 15% 0 15%;
+  background-color: #fff;
+  border: 2px solid;
+}
+
+#hero_img{
+  width: 100%;
+  margin: 30px 0 0 0;
+  border: 1px solid #000;
+}
