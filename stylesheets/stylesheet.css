@@ -2,4 +2,72 @@
 
 
 /* General Styles */
+body{
+  font-family:'Montserrat', sans-serif;
+  padding:0px;
+  margin: 0px;
+  /*background-image: url(../imgs/Coney_temp.png);
+  background-repeat: no-repeat;*/
+}
+
+a:link{
+  text-decoration: none;
+  color:#000;
+}
+
+a:visited{
+  text-decoration: none;
+  color: #000;
+}
+
+
+/*Body*/
+#wrapper{
+
+}
+
+#bg{
+
+}
+
+#bg_img{
+  width: 100%;
+}
+
+/*Top Nav*/
+#top_nav{
+position: relative;
+margin-top: -41%;
+z-index: 50;
+}
+
+h1#name{
+  color: #fff;
+  margin: 0 75% 0 0;
+  padding: 8px 12px 8px 80px;
+  background: rgba(0, 0, 0, 0.52);
+  position: absolute;
+  white-space: nowrap;
+}
+
+ul#social{
+  list-style-type: none;
+  position: fixed;
+  margin: 70px 0 0 -40px;
+}
+
+li#button{
+ margin-bottom: 10px;
+}
+
+/*Bottom Nav*/
+
+ul#menu_list {
+  list-style-type: none;
+  padding: 42% 0 0 50px;
+}
+
+li#btm {
+  margin-bottom: 7px;
+}
 
