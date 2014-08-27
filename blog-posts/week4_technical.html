@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../blog-posts/stylesheets/blog-stylesheet.css">
+    <title>Weckel's Blog</title>
+  </head>
+  <body>
+    <div>
+        <img id ="banner" src="../blog-posts/imgs/top_banner.png" />
+      </div>
+    <div class="body">
+      <ul> <!-- MENU -->
+        <li><a class ="menu_link" href="#">Home</a></li>
+        <li><a class ="menu_link" href="#">Blog</a></li>
+        <li><a class ="menu_link" href="#">About Me</a></li>
+      </ul>
+        <div id="image">
+          <img id="hero" src="../blog-posts/imgs/week4-tech.png" />
+        </div>
+        <h1>Enumerable#group_by</h1>
+        <h2>August 27, 2014</h2>
+        <div class="content">
+          <p>You can use the group_by on a enumerable object to return a hash on a block. The key becomes the result hash and the value of the key is an array that matches the key. Lets look at an example:</p>
+          <p>names = ["Matt", "Jen", "James", "Alfred", "John", "Dan", "Mark", "Don"]</p>
+          <p>puts names.group_by {|name| name.length}</p>
+          <p>This would return:</p>
+          <p>{4=>["Matt", "John", "Mark"], 3=>["Jen", "Dan", "Don"], 5=>["James"], 6=>["Alfred"]}</p>
+          <p>This is an incredibly useful way to quickly make a hash that groups items according to some kind of shared characteristic. I might just go use this on challenge 2.</p>
+        </div>
+    </div>
+  </body>
+</html>
+
