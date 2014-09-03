@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../blog-posts/stylesheets/blog-stylesheet.css">
+    <title>Weckel's Blog</title>
+  </head>
+  <body>
+    <div>
+        <img id ="banner" src="../blog-posts/imgs/top_banner.png" />
+      </div>
+    <div class="body">
+      <ul> <!-- MENU -->
+        <li><a class ="menu_link" href="#">Home</a></li>
+        <li><a class ="menu_link" href="#">Blog</a></li>
+        <li><a class ="menu_link" href="#">About Me</a></li>
+      </ul>
+        <div id="image">
+          <img id="hero" src="../blog-posts/imgs/week5-tech.png" />
+        </div>
+        <h1>Ruby Classes</h1>
+        <h2>September 03, 2014</h2>
+        <div class="content">
+          <p>Let's talk about ruby classes. We're not going to get in to the definition and everything you can know and do with them, but instead we'll look at an example using a real-world object to get a better understanding!</p>
+          <p>Let's say I am writing a fantasy novel(nerd!), and in my imaginary world there is a group of people who only speak a language called Weckelan. I want this language to feel as real as possible, so I am going to make up at least 2,000 words that I can pick and choose from when those characters speak. I am going to create a Language class to help me keep track of these words and make sure I don't repeat any.</p>
+          <p>Now I am not going to write out the entire code, but let's take a look at the basic structure of my new Language class:</p>
+          <p id="code1">class Language</p>
+          <p id="code2"> def initialize(word)</p>
+          <p id="code3">@word = word</p>
+          <p id="code2">end</p>
+          <p id="code2">def check</p>
+          <p id="code3">#check if word exists already in the language</p>
+          <p id="code2">end</p>
+          <p id="code2">def add_word</p>
+          <p id="code3"> #if word does not exist add the word to the language.</p>
+          <p id="code2">end</p>
+          <p id="code1">end</p>
+          <p>word001 = Language.new("fghuteroudo")</p>
+          <p id="code1">word001.add_word</p>
+          <p>After I have created the Language class, I am then initializing the class by turning the word variable that holds the argument to be checked in to an instance variable so it can be used across the class. Then I create a new method to check if the word exists, and finally one more method to add the word to the language.</p>
+          <p>So then when I create a new word, I create a new instance of that class and call add_word on that instance to either add the word if it doesn't exist yet, or return an error of some kind. I might just go make up a language now to try this out!</p>
+        </div>
+    </div>
+  </body>
+</html>
+

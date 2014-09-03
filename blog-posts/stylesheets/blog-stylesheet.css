@@ -65,3 +65,17 @@ h2{
   padding: 20px 0 50px 0;
   text-indent:50px;
 }
+
+#code1{
+  margin-top: -10px;
+}
+
+#code2{
+  margin-top: -10px;
+  text-indent:70px;
+}
+
+#code3{
+  margin-top: -10px;
+  text-indent:90px;
+}
