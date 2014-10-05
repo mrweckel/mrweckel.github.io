@@ -1,6 +1,8 @@
+$(document).ready(function(){
 
 
 
-$('body').css({'background-color': 'pink'})
-$('h1').css({'font-family': 'Arial'})
-$('img').css({'width':'20%', 'height':'auto'})
+
+
+
+})  // end of the document.ready function: do not remove or write DOM manipulation below this.
