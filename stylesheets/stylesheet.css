@@ -99,7 +99,7 @@ li#btm {
     margin: 15px 0 0 -40px;
     display: block;
     text-align: center;
-    white-space: nowrap
+    white-space: wrap
   }
 
   li#button{
