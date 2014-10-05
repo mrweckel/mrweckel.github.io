@@ -84,7 +84,7 @@ li#btm {
 }
 
 
-@media screen and (max-width: 700px) {
+/*@media screen and (max-width: 700px) {
   h1#name{
     padding: 8px 100% 8px 40%;
     left: 2px;
@@ -164,4 +164,4 @@ li#btm {
     border-right: 1.5px solid #000;
     border-left: 1.5px solid #000;
   }
-}
+}*/
