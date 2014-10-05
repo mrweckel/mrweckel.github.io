@@ -91,6 +91,30 @@ li#btm {
   /*padding: 8px 12px 8px 80px;*/
   /*background: rgba(0, 0, 0, 0.52);*/
   position: absolute;
+  white-space: pre-wrap;
+  }
+
+  ul#social{
+  list-style-type: none;
+  position: fixed;
+  margin: 70px 0 0 -40px;
+  white-space: wrap;
+  }
+
+li#button{
+ margin-bottom: 10px;
+  }
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+  h1#name{
+  color: #fff;
+  margin: 0 75% 0 0;
+  /*padding: 8px 12px 8px 80px;*/
+  /*background: rgba(0, 0, 0, 0.52);*/
+  position: absolute;
   white-space: nowrap;
   }
 
