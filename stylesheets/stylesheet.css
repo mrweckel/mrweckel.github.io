@@ -110,7 +110,7 @@ li#btm {
   ul#menu_list {
     list-style-type: none;
     padding: 28% 0 0 0px;
-    white-space: nowrap;
+    white-space: wrap;
     text-align: center;
     position: relative;
     top: 50%;
@@ -125,24 +125,43 @@ li#btm {
   }
 }
 
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 568px) {
-  h1#name{
-  padding: 8px 100% 8px 35%;
-  left: 2px;
-  position: relative;
-  top: 50%;
-  margin: 0;
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+    h1#name{
+    padding: 8px 100% 8px 35%;
+    left: 2px;
+    position: relative;
+    top: 50%;
   }
 
   ul#social{
-  list-style-type: none;
-  position: fixed;
-  margin: 70px 0 0 -40px;
+    list-style-type: none;
+    position: relative;
+    top: 50%;
+    margin: 15px 0 0 -40px;
+    display: block;
+    text-align: center;
+    white-space: wrap
   }
 
-li#button{
- margin-bottom: 10px;
+  li#button{
+    margin: 0 3px 0 3px;
+    display: inline;
+  }
+
+  ul#menu_list {
+    list-style-type: none;
+    padding: 28% 0 0 0px;
+    white-space: wrap;
+    text-align: center;
+    position: relative;
+    top: 50%;
+  }
+
+  li#btm {
+    margin: 0px 1px 0 1px;
+    padding: 0 6px 0 6px;
+    display: inline;
+    border-right: 1.5px solid #000;
+    border-left: 1.5px solid #000;
   }
 }
