@@ -102,11 +102,11 @@ li#btm {
     white-space: wrap
   }
 
-  /*li#button{
+  li#button{
     margin: 0 3px 0 3px;
     display: inline;
   }
-
+/*
   ul#menu_list {
     list-style-type: none;
     padding: 28% 0 0 0px;
