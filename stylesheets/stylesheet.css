@@ -92,11 +92,11 @@ li#btm {
     top: 50%;
   }*/
 
-  ul#social{
+    ul#social{
     list-style-type: none;
-    position: relative;
+    position: absolute;
     top: 50%;
-    margin: 15px 0 0 -40px;
+    margin: 70px auto 0 auto;
     display: block;
     text-align: center;
     white-space: wrap
